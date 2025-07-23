@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Malla Curricular Enfermería</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1>🧠 Avance Curricular</h1>
+  <div class="malla">
+   
+    <div class="semestre" data-semestre="1">
+      <h2>1° Semestre</h2>
+      <button class="ramo" data-id="1">Biología</button>
+      <button class="ramo" data-id="2">Química</button>
+      <button class="ramo" data-id="3">Fundamentos de Enfermería</button>
+      <button class="ramo" data-id="4">Comunicación</button>
+    </div>
+
+    <div class="semestre" data-semestre="2">
+      <h2>2° Semestre</h2>
+      <button class="ramo" data-id="5" data-requiere="1,2">Anatomía</button>
+      <button class="ramo" data-id="6" data-requiere="3">Cuidados Básicos</button>
+      <button class="ramo" data-id="7">Salud Pública</button>
+      <button class="ramo" data-id="8">Psicología</button>
+    </div>
+
+    
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
